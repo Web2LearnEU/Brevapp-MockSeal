@@ -53,19 +53,19 @@ On macOS:
     Set Up OpenSSL Configuration: The repository includes an openssl.cnf configuration file that defines the certificate details, including custom attributes. Modify the configuration file if needed.
 
 ## Usage
-# Generating Certificates
+### Generating Certificates
 
     Generate Private Key and CSR (Certificate Signing Request): Use the following command to generate a private key and CSR:
 
 
     openssl req -new -nodes -out mycsr.csr -newkey rsa:2048 -keyout mykey.key -config openssl.cnf
 
-Generate a Self-Signed Certificate: Create the self-signed certificate using the CSR:
+### Generate a Self-Signed Certificate: Create the self-signed certificate using the CSR:
 
 
     openssl x509 -signkey mykey.key -in mycsr.csr -req -days 365 -out mycert.crt -extfile openssl.cnf -extensions v3_req
 
-Adding Organization Identifier (OID)
+### Adding Organization Identifier (OID)
 
 To include an Organization Identifier in your certificate:
 
@@ -96,7 +96,7 @@ Convert to .pem (PEM) Format:
 
     openssl pkcs12 -in mycert.p12 -out mycert.pem -nodes
 
-Viewing Certificate Details
+### Viewing Certificate Details
 
 To verify the details of the generated certificate:
 
