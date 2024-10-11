@@ -52,7 +52,7 @@ On macOS:
 
     Set Up OpenSSL Configuration: The repository includes an openssl.cnf configuration file that defines the certificate details, including custom attributes. Modify the configuration file if needed.
 
-Usage
+## Usage
 Generating Certificates
 
     Generate Private Key and CSR (Certificate Signing Request): Use the following command to generate a private key and CSR:
@@ -103,19 +103,19 @@ To verify the details of the generated certificate:
 
     openssl x509 -in mycert.crt -text -noout
 
-Common Use Cases
+## Common Use Cases
 
     Digital Signatures: Use the certificate to digitally sign documents or software artifacts.
     Secure Communication: The .p12 format can be used for configuring secure communications in web servers, VPNs, or email systems.
     Testing and Development: Mock certificates with realistic data are useful in test environments without needing a CA-issued certificate.
     Learning and Demos: Perfect for demonstrating certificate creation and management.
 
-Author
+## Author
 
 Joseph Terzis
 Web2Learn | Thessaloniki, Greece
 
-Contact
+## Contact
 
 For any inquiries or further assistance, feel free to reach out:
 
