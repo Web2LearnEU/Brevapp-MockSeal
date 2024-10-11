@@ -1,0 +1,65 @@
+28-Sep-2023 10:25:05.577 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2023 10:25:05.614 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+28-Sep-2023 10:25:05.635 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+28-Sep-2023 10:25:25.633 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+28-Sep-2023 10:25:25.643 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 10:25:25.650 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 10:25:28.880 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+28-Sep-2023 10:25:29.101 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+28-Sep-2023 10:25:29.125 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::set_nullable_to_defaultTitle::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'SPEC_EUROPASS_CREDENTIAL' [Failed SQL: (1054) ALTER TABLE edci.SPEC_EUROPASS_CREDENTIAL MODIFY DEFAULT_TITLE VARCHAR(255)]
+28-Sep-2023 10:25:29.143 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::copy_defaultTitle_to_Label::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'field list' [Failed SQL: (1054) UPDATE edci.SPEC_EUROPASS_CREDENTIAL SET LABEL = DEFAULT_TITLE WHERE LABEL is null]
+28-Sep-2023 10:25:29.152 INFO [main] liquibase.lockservice.null Successfully released change log lock
+28-Sep-2023 10:25:29.409 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-MVC'
+28-Sep-2023 10:25:30.445 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-REST'
+28-Sep-2023 10:55:32.363 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2023 10:55:32.381 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+28-Sep-2023 10:55:32.407 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+28-Sep-2023 10:55:56.601 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+28-Sep-2023 10:55:56.609 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 10:55:56.616 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 10:55:59.147 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+28-Sep-2023 10:55:59.247 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+28-Sep-2023 10:55:59.275 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::set_nullable_to_defaultTitle::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'SPEC_EUROPASS_CREDENTIAL' [Failed SQL: (1054) ALTER TABLE edci.SPEC_EUROPASS_CREDENTIAL MODIFY DEFAULT_TITLE VARCHAR(255)]
+28-Sep-2023 10:55:59.297 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::copy_defaultTitle_to_Label::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'field list' [Failed SQL: (1054) UPDATE edci.SPEC_EUROPASS_CREDENTIAL SET LABEL = DEFAULT_TITLE WHERE LABEL is null]
+28-Sep-2023 10:55:59.305 INFO [main] liquibase.lockservice.null Successfully released change log lock
+28-Sep-2023 10:55:59.462 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-MVC'
+28-Sep-2023 10:56:00.410 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-REST'
+28-Sep-2023 11:18:22.576 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2023 11:18:22.584 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+28-Sep-2023 11:18:22.599 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+28-Sep-2023 11:18:41.500 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+28-Sep-2023 11:18:41.508 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 11:18:41.514 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 11:18:44.224 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+28-Sep-2023 11:18:44.300 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+28-Sep-2023 11:18:44.314 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::set_nullable_to_defaultTitle::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'SPEC_EUROPASS_CREDENTIAL' [Failed SQL: (1054) ALTER TABLE edci.SPEC_EUROPASS_CREDENTIAL MODIFY DEFAULT_TITLE VARCHAR(255)]
+28-Sep-2023 11:18:44.321 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::copy_defaultTitle_to_Label::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'field list' [Failed SQL: (1054) UPDATE edci.SPEC_EUROPASS_CREDENTIAL SET LABEL = DEFAULT_TITLE WHERE LABEL is null]
+28-Sep-2023 11:18:44.335 INFO [main] liquibase.lockservice.null Successfully released change log lock
+28-Sep-2023 11:18:44.480 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-MVC'
+28-Sep-2023 11:18:45.420 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-REST'
+28-Sep-2023 11:39:31.365 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2023 11:39:31.395 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+28-Sep-2023 11:39:31.431 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+28-Sep-2023 11:39:50.113 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+28-Sep-2023 11:39:50.120 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 11:39:50.127 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 11:39:52.335 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+28-Sep-2023 11:39:52.403 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+28-Sep-2023 11:39:52.421 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::set_nullable_to_defaultTitle::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'SPEC_EUROPASS_CREDENTIAL' [Failed SQL: (1054) ALTER TABLE edci.SPEC_EUROPASS_CREDENTIAL MODIFY DEFAULT_TITLE VARCHAR(255)]
+28-Sep-2023 11:39:52.426 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::copy_defaultTitle_to_Label::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'field list' [Failed SQL: (1054) UPDATE edci.SPEC_EUROPASS_CREDENTIAL SET LABEL = DEFAULT_TITLE WHERE LABEL is null]
+28-Sep-2023 11:39:52.435 INFO [main] liquibase.lockservice.null Successfully released change log lock
+28-Sep-2023 11:39:52.607 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-MVC'
+28-Sep-2023 11:39:53.629 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-REST'
+28-Sep-2023 13:46:11.575 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2023 13:46:11.608 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+28-Sep-2023 13:46:11.631 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+28-Sep-2023 13:46:45.160 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+28-Sep-2023 13:46:45.169 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 13:46:45.176 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+28-Sep-2023 13:46:50.384 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+28-Sep-2023 13:46:50.471 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+28-Sep-2023 13:46:50.488 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::set_nullable_to_defaultTitle::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'SPEC_EUROPASS_CREDENTIAL' [Failed SQL: (1054) ALTER TABLE edci.SPEC_EUROPASS_CREDENTIAL MODIFY DEFAULT_TITLE VARCHAR(255)]
+28-Sep-2023 13:46:50.509 INFO [main] liquibase.changelog.null Change set changeLog/liquibase-changelog-1.7.xml::copy_defaultTitle_to_Label::edci failed, but failOnError was false.  Error: Unknown column 'DEFAULT_TITLE' in 'field list' [Failed SQL: (1054) UPDATE edci.SPEC_EUROPASS_CREDENTIAL SET LABEL = DEFAULT_TITLE WHERE LABEL is null]
+28-Sep-2023 13:46:50.521 INFO [main] liquibase.lockservice.null Successfully released change log lock
+28-Sep-2023 13:46:50.781 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-MVC'
+28-Sep-2023 13:46:52.523 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring-REST'

@@ -1,0 +1,11 @@
+172.18.0.1 - - [21/Sep/2023:20:34:27 +0000] "GET /europass2/edci-viewer/ HTTP/1.1" 404 682
+172.18.0.1 - - [21/Sep/2023:20:34:27 +0000] "GET /favicon.ico HTTP/1.1" 404 682
+172.18.0.1 - - [21/Sep/2023:20:34:37 +0000] "GET /europass2/edci-iaau/ HTTP/1.1" 404 682
+172.18.0.1 - - [21/Sep/2023:20:34:46 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 500 8150
+172.18.0.1 - - [21/Sep/2023:20:51:01 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 302 -
+172.18.0.1 - - [21/Sep/2023:20:51:01 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 500 8150
+172.18.0.1 - - [21/Sep/2023:20:51:07 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 500 8150
+172.18.0.1 - - [21/Sep/2023:20:51:08 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 500 19111
+172.18.0.1 - - [21/Sep/2023:20:51:08 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 500 19111
+172.18.0.1 - - [21/Sep/2023:20:51:09 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 500 19111
+172.18.0.1 - - [21/Sep/2023:20:53:15 +0000] "GET /europass2/edci-issuer/ HTTP/1.1" 500 8150

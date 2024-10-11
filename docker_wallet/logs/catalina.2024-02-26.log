@@ -1,0 +1,411 @@
+26-Feb-2024 19:55:35.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 19:55:35.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 19:55:35.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 19:55:35.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 19:55:35.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 19:55:35.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 19:55:35.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 19:55:35.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 19:55:35.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 19:55:35.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 19:55:35.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 19:55:35.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 19:55:35.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 19:55:35.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 19:55:35.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 19:55:35.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 19:55:35.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 19:55:35.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 19:55:35.309 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 19:55:35.309 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 19:55:35.309 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 19:55:35.330 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 19:55:36.535 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 19:55:36.669 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1872] milliseconds
+26-Feb-2024 19:55:36.896 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 19:55:36.902 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 19:55:36.934 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 19:55:36.996 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 19:55:52.445 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 19:55:52.566 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [15,631] ms
+26-Feb-2024 19:55:52.573 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 19:55:52.582 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 19:56:00.626 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 19:56:10.665 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 19:56:10.670 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 19:56:10.676 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 19:56:12.708 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 19:56:12.742 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+26-Feb-2024 19:56:12.761 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 19:56:14.139 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 19:56:15.948 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 19:56:15.966 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 19:56:16.002 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war] has finished in [23,429] ms
+26-Feb-2024 19:56:16.016 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 19:56:16.071 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [39401] milliseconds
+26-Feb-2024 20:33:20.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 20:33:20.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 20:33:20.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 20:33:20.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 20:33:20.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 20:33:20.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 20:33:20.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 20:33:20.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 20:33:20.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 20:33:20.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 20:33:20.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 20:33:20.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 20:33:20.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 20:33:20.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 20:33:20.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 20:33:20.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 20:33:20.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 20:33:20.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 20:33:20.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 20:33:20.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 20:33:20.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 20:33:20.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 20:33:20.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 20:33:20.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 20:33:20.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 20:33:20.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 20:33:20.865 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 20:33:20.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 20:33:20.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 20:33:20.872 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 20:33:21.987 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 20:33:22.096 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1966] milliseconds
+26-Feb-2024 20:33:22.271 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 20:33:22.271 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 20:33:22.319 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 20:33:22.349 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 20:33:38.646 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 20:33:38.908 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [16,595] ms
+26-Feb-2024 20:33:38.982 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 20:33:38.999 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 20:33:45.909 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 20:33:55.111 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 20:33:55.117 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 20:33:55.121 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 20:33:57.393 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 20:33:57.451 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+26-Feb-2024 20:33:57.477 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 20:33:58.955 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 20:34:01.332 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 20:34:01.359 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 20:34:01.841 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war] has finished in [22,860] ms
+26-Feb-2024 20:34:01.872 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 20:34:01.945 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [39848] milliseconds
+26-Feb-2024 21:10:41.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 21:10:41.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 21:10:41.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 21:10:41.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 21:10:41.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 21:10:41.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 21:10:41.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 21:10:41.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 21:10:41.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 21:10:41.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 21:10:41.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 21:10:41.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 21:10:41.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 21:10:41.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 21:10:41.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 21:10:41.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 21:10:41.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 21:10:41.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 21:10:41.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 21:10:41.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 21:10:41.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 21:10:41.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 21:10:41.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 21:10:41.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 21:10:41.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 21:10:41.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 21:10:41.481 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 21:10:41.481 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 21:10:41.481 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 21:10:41.507 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 21:10:42.523 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 21:10:42.680 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1757] milliseconds
+26-Feb-2024 21:10:42.926 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 21:10:42.926 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 21:10:43.011 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 21:10:43.050 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:10:57.842 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 21:10:58.116 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [15,103] ms
+26-Feb-2024 21:10:58.126 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 21:10:58.136 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:17:33.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 21:17:33.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 21:17:33.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 21:17:33.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 21:17:33.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 21:17:33.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 21:17:33.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 21:17:33.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 21:17:33.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 21:17:33.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 21:17:33.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 21:17:33.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 21:17:33.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 21:17:33.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 21:17:33.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 21:17:33.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 21:17:33.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 21:17:33.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 21:17:33.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 21:17:33.907 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 21:17:33.908 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 21:17:33.908 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 21:17:33.931 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 21:17:35.267 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 21:17:35.345 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2205] milliseconds
+26-Feb-2024 21:17:35.577 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 21:17:35.608 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 21:17:35.647 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 21:17:35.793 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:17:59.817 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 21:18:00.668 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [25,004] ms
+26-Feb-2024 21:18:00.692 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 21:18:00.778 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:18:13.843 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 21:18:33.773 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 21:18:33.807 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 21:18:33.827 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 21:18:39.644 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 21:18:39.765 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+26-Feb-2024 21:18:39.801 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 21:18:42.794 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 21:18:46.616 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 21:18:46.649 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 21:18:46.992 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war] has finished in [46,296] ms
+26-Feb-2024 21:18:47.040 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 21:18:47.118 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [71772] milliseconds
+26-Feb-2024 21:23:17.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 21:23:17.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 21:23:17.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 21:23:17.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 21:23:17.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 21:23:17.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 21:23:17.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 21:23:17.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 21:23:17.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 21:23:17.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 21:23:17.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 21:23:17.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 21:23:17.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 21:23:17.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 21:23:17.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 21:23:17.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 21:23:17.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 21:23:17.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 21:23:17.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 21:23:17.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 21:23:17.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 21:23:17.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 21:23:17.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 21:23:17.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 21:23:17.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 21:23:17.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 21:23:17.384 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 21:23:17.385 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 21:23:17.385 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 21:23:17.440 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 21:23:18.557 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 21:23:18.656 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1923] milliseconds
+26-Feb-2024 21:23:18.877 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 21:23:18.879 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 21:23:18.921 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 21:23:18.989 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:23:44.998 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 21:23:45.442 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [26,519] ms
+26-Feb-2024 21:23:45.464 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 21:23:45.478 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:23:57.105 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 21:24:14.109 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 21:24:14.114 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 21:24:14.122 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 21:24:20.587 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 21:24:20.807 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+26-Feb-2024 21:24:20.925 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 21:24:28.090 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 21:24:52.850 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 21:24:52.905 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 21:24:53.130 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war] has finished in [67,665] ms
+26-Feb-2024 21:24:53.201 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 21:24:53.292 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [94631] milliseconds
+26-Feb-2024 21:27:52.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 21:27:52.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 21:27:52.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 21:27:52.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 21:27:52.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 21:27:52.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 21:27:52.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 21:27:52.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 21:27:52.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 21:27:52.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 21:27:52.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 21:27:52.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 21:27:52.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 21:27:52.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 21:27:52.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 21:27:52.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 21:27:52.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 21:27:52.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 21:27:52.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 21:27:52.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 21:27:52.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 21:27:52.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 21:27:52.687 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 21:27:53.407 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 21:27:53.465 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1440] milliseconds
+26-Feb-2024 21:27:53.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 21:27:53.620 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 21:27:53.645 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 21:27:53.696 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:28:10.738 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 21:28:11.090 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [17,444] ms
+26-Feb-2024 21:28:11.154 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 21:28:11.171 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 21:28:20.623 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 21:28:32.826 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 21:28:32.831 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 21:28:32.835 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 21:28:34.814 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 21:28:34.848 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+26-Feb-2024 21:28:34.865 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 21:28:36.102 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 21:28:37.475 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 21:28:37.504 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 21:28:37.559 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war] has finished in [26,404] ms
+26-Feb-2024 21:28:37.577 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 21:28:37.604 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [44138] milliseconds
+26-Feb-2024 22:02:44.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 22:02:44.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 22:02:44.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 22:02:44.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 22:02:44.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 22:02:44.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 22:02:44.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 22:02:44.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 22:02:44.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 22:02:44.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 22:02:44.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 22:02:44.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 22:02:44.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 22:02:44.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 22:02:44.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 22:02:44.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 22:02:44.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 22:02:44.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 22:02:44.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 22:02:44.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 22:02:44.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 22:02:44.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 22:02:44.656 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 22:02:45.670 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 22:02:45.727 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1565] milliseconds
+26-Feb-2024 22:02:45.825 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 22:02:45.826 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 22:02:45.857 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 22:02:45.884 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 22:02:58.895 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 22:02:59.015 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [13,158] ms
+26-Feb-2024 22:02:59.027 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 22:02:59.030 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 22:03:16.259 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 22:03:23.349 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 22:03:23.356 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 22:03:23.360 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 22:03:24.978 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 22:03:25.011 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+26-Feb-2024 22:03:25.032 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 22:03:26.590 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 22:03:28.083 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 22:03:28.106 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 22:03:28.130 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war] has finished in [29,103] ms
+26-Feb-2024 22:03:28.142 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 22:03:28.170 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [42442] milliseconds
+26-Feb-2024 23:22:14.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.69
+26-Feb-2024 23:22:14.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2022 18:43:47 UTC
+26-Feb-2024 23:22:14.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.69.0
+26-Feb-2024 23:22:14.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Feb-2024 23:22:14.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-21-generic
+26-Feb-2024 23:22:14.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Feb-2024 23:22:14.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+26-Feb-2024 23:22:14.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+8
+26-Feb-2024 23:22:14.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+26-Feb-2024 23:22:14.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+26-Feb-2024 23:22:14.123 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+26-Feb-2024 23:22:14.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Feb-2024 23:22:14.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Feb-2024 23:22:14.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Feb-2024 23:22:14.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Feb-2024 23:22:14.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Feb-2024 23:22:14.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+26-Feb-2024 23:22:14.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Feb-2024 23:22:14.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Feb-2024 23:22:14.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Feb-2024 23:22:14.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Feb-2024 23:22:14.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=*:8000,server=y,suspend=n
+26-Feb-2024 23:22:14.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Feb-2024 23:22:14.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+26-Feb-2024 23:22:14.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+26-Feb-2024 23:22:14.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+26-Feb-2024 23:22:14.273 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+26-Feb-2024 23:22:14.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+26-Feb-2024 23:22:14.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Feb-2024 23:22:14.367 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+26-Feb-2024 23:22:15.312 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 23:22:15.419 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1844] milliseconds
+26-Feb-2024 23:22:15.586 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Feb-2024 23:22:15.586 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.69]
+26-Feb-2024 23:22:15.613 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war]
+26-Feb-2024 23:22:15.633 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 23:22:31.023 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 23:22:31.082 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet-swaggerUI.war] has finished in [15,469] ms
+26-Feb-2024 23:22:31.084 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war]
+26-Feb-2024 23:22:31.087 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/usr/local/tomcat/webapps/europass2#edci-wallet] was found with a last modified time that did not match the associated WAR. It will be deleted.
+26-Feb-2024 23:22:36.046 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Feb-2024 23:22:43.012 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 23:22:43.044 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 23:22:43.056 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+26-Feb-2024 23:22:44.486 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 23:22:44.538 INFO [main] liquibase.servicelocator.null Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+26-Feb-2024 23:22:44.564 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 23:22:45.929 INFO [main] liquibase.lockservice.null Successfully acquired change log lock
+26-Feb-2024 23:22:47.554 INFO [main] liquibase.changelog.null Reading from edci.DATABASECHANGELOG
+26-Feb-2024 23:22:47.596 INFO [main] liquibase.lockservice.null Successfully released change log lock
+26-Feb-2024 23:22:47.636 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/europass2#edci-wallet.war] has finished in [16,552] ms
+26-Feb-2024 23:22:47.699 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Feb-2024 23:22:47.791 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [32371] milliseconds
