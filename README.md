@@ -84,12 +84,12 @@ Generate the Self-Signed Certificate:
 
     openssl x509 -signkey mykey.key -in mycsr.csr -req -days 365 -out mycert.crt -extfile openssl.cnf -extensions v3_req
 
-Converting to .p12 and .pem Formats
+### Converting to .p12 and .pem Formats
 
-    Convert to .p12 (PKCS#12) Format:
+Convert to .p12 (PKCS#12) Format:
 
 
-openssl pkcs12 -export -out mycert.p12 -inkey mykey.key -in mycert.crt -certfile mycert.crt
+    openssl pkcs12 -export -out mycert.p12 -inkey mykey.key -in mycert.crt -certfile mycert.crt
 
 Convert to .pem (PEM) Format:
 
