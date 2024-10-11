@@ -53,7 +53,7 @@ On macOS:
     Set Up OpenSSL Configuration: The repository includes an openssl.cnf configuration file that defines the certificate details, including custom attributes. Modify the configuration file if needed.
 
 ## Usage
-Generating Certificates
+# Generating Certificates
 
     Generate Private Key and CSR (Certificate Signing Request): Use the following command to generate a private key and CSR:
 
