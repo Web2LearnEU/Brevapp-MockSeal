@@ -121,14 +121,11 @@ For any inquiries or further assistance, feel free to reach out:
 
     Email: joshterzis@gmail.com
 
-About the Project
+## About the Project
 
-The Mock-Seal Project is part of the broader BREVET project, funded by Erasmus+, which aims to modernize the credentialing process in the VET sector. As part of BrevApp, the Mock-Seal Project helps ensure that digital credentials comply with European Digital Credentials Infrastructure (EDCI) standards. This tool is designed to support VET institutions in issuing credentials that are secure, verifiable, and recognized across Europe. The inclusion of custom fields such as the Organization Identifier (OID) makes this project especially useful for simulating real-world credentialing scenarios.
+The **Mock-Seal Project** is part of the larger **BREVET project**, funded by **Erasmus+**, which aims to modernize the credentialing process in the **Vocational Education and Training (VET)** sector. As part of the **BrevApp** system, the Mock-Seal Project helps ensure that digital credentials comply with the **European Digital Credentials Infrastructure (EDCI)** standards. This tool supports VET institutions in issuing credentials that are secure, verifiable, and recognized across Europe.
 
+With the ability to add custom fields such as the **Organization Identifier (OID)**, the Mock-Seal Project allows for realistic simulations of credential issuance scenarios. The integration into **BREVET** and **BrevApp** helps streamline the process of skills recognition in line with European frameworks like **ESCO** (European Skills, Competences, Qualifications, and Occupations) and **Europass**.
 
-For more information about the BREVET project, please visit BREVET website​
-BREVET
-​
-BREVET
-​
-Web2Learn
+For more information about the BREVET project and BrevApp, please visit the [BREVET website](https://brevet.openrecognition.org/).
+
