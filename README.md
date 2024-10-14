@@ -15,9 +15,14 @@
 - [Contact](#contact)
 
 ## Overview
-The **Mock-Seal Project** provides a streamlined and configurable method for generating self-signed certificates that include custom attributes, such as the Organization Identifier. These certificates are useful for digital signatures, encryption, or setting up secure communication between applications. The project leverages OpenSSL and provides an easy-to-use guide for creating and managing certificates in multiple formats. 
+This code is part of the **BrevApp** system, developed under the **BREVET project**, funded by **Erasmus+**. BrevApp is a digital credentialing tool designed to assist **Vocational Education and Training (VET)** institutions in issuing credentials that comply with the **European Digital Credentials Infrastructure (EDCI)**. The purpose of BrevApp is to provide a streamlined, user-friendly solution for issuing digital credentials recognized across Europe.
 
-The goal of this project is to help developers, DevOps engineers, or system administrators quickly generate certificates with custom attributes for testing and demonstration purposes, as well as support broader digital credential use cases.
+This specific section of the code includes functionality for generating **mock-seals** and custom attributes, which help simulate real-world credentialing scenarios. It plays a critical role in ensuring that BrevApp can generate certificates with necessary fields like the **Organization Identifier (OID)** and export them in various formats (`.crt`, `.p12`, `.pem`). The generated credentials align with European frameworks such as **ESCO** (European Skills, Competences, Qualifications, and Occupations) and **Europass**, ensuring portability and recognition across the EU.
+
+By making this open-source, we aim to contribute to the wider adoption and development of digital credentialing systems across educational institutions and organizations.
+
+For more details about the BREVET project and BrevApp, please visit the [BREVET website](https://brevet.openrecognition.org/).
+
 
 ## Features
 - **Custom Certificate Attributes**: Support for adding custom X.509 fields such as the organization identifier, along with standard fields (Country, State, Organization, etc.).
@@ -121,11 +126,7 @@ For any inquiries or further assistance, feel free to reach out:
 
     Email: joshterzis@gmail.com
 
-## About the Project
 
-The **Mock-Seal Project** is part of the larger **BREVET project**, funded by **Erasmus+**, which aims to modernize the credentialing process in the **Vocational Education and Training (VET)** sector. As part of the **BrevApp** system, the Mock-Seal Project helps ensure that digital credentials comply with the **European Digital Credentials Infrastructure (EDCI)** standards. This tool supports VET institutions in issuing credentials that are secure, verifiable, and recognized across Europe.
 
-With the ability to add custom fields such as the **Organization Identifier (OID)**, the Mock-Seal Project allows for realistic simulations of credential issuance scenarios. The integration into **BREVET** and **BrevApp** helps streamline the process of skills recognition in line with European frameworks like **ESCO** (European Skills, Competences, Qualifications, and Occupations) and **Europass**.
 
-For more information about the BREVET project and BrevApp, please visit the [BREVET website](https://brevet.openrecognition.org/).
 
