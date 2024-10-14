@@ -120,3 +120,15 @@ Web2Learn | Thessaloniki, Greece
 For any inquiries or further assistance, feel free to reach out:
 
     Email: joshterzis@gmail.com
+
+About the Project
+
+The Mock-Seal Project is part of the broader BREVET project, funded by Erasmus+, which aims to modernize the credentialing process in the VET sector. As part of BrevApp, the Mock-Seal Project helps ensure that digital credentials comply with European Digital Credentials Infrastructure (EDCI) standards. This tool is designed to support VET institutions in issuing credentials that are secure, verifiable, and recognized across Europe. The inclusion of custom fields such as the Organization Identifier (OID) makes this project especially useful for simulating real-world credentialing scenarios.
+
+
+For more information about the BREVET project, please visit BREVET website​
+BREVET
+​
+BREVET
+​
+Web2Learn
